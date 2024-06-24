@@ -1,0 +1,3 @@
+select car,abs(mpg) from cars
+select car,mpg *pi() from cars
+select car,sqrt (cylinders) from cars

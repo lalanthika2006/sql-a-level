@@ -1,0 +1,7 @@
+select * from students order by name
+select id, name, age  from students order by id
+select id,name,age ,city from students order by city
+select * from students order by 1,2
+select id,name,age from students order by 1,2 desc
+select * from students order by 4
+select id,name,age from students order by 3

@@ -1,0 +1,6 @@
+select car,substring(car,10,9) from cars
+select ltrim(car) from cars
+select rtrim(car) from cars
+select trim(car) from cars
+select left (car,9) from cars
+select right(car,6) from cars

@@ -1,0 +1,6 @@
+select avg(weight) as avg_weight from cars
+select avg (mpg) as avg_mpg from cars
+select avg(cylinders) as avg_cyl from cars
+select count(mpg) as total_rows  from cars
+select max(mpg) as max_mpg from cars
+select max(cylinders) as max_cyl from cars

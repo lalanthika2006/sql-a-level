@@ -1,0 +1,7 @@
+select * from cars
+select * from cars where cylinders =6
+select car,mpg, cylinders from cars where cylinders <6
+select car,mpg,cylinders from cars where cylinders >6
+select car,mpg,cylinders from cars where cylinders between 3 and 6
+select car,mpg,cylinders from cars where cylinders <> 5 order by cylinders
+select car,mpg,cylinders from cars where cylinders is null

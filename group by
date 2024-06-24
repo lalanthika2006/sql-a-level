@@ -1,0 +1,5 @@
+select origin , count (*) from cars group by origin
+select mpg , count (*) from cars group by mpg
+select mpg, count(*) from cars group by mpg having count(*) >1
+select car, count (*) from cars where origin = 'Japan' group by car having count (*) > 1
+select car , count (*) as "count" from cars group by "car" having count(*) >1 order by "count" desc

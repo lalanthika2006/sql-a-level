@@ -1,0 +1,6 @@
+select car,cylinders from cars where cylinders = 8 
+intersect
+select car,cylinders from cars where origin in ('Japan','US')
+select car, cylinders from cars where cylinders =8
+union 
+select car,cylinders from cars where origin in ('Japan','Europe') order by cylinders desc

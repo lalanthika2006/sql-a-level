@@ -1,0 +1,3 @@
+select car,upper(car) from cars 
+select car,lower(car) from cars
+select car,length(car) from cars

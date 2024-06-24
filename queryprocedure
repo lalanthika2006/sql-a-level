@@ -1,0 +1,11 @@
+create or replace procedure addcourses
+(id_ integer,duration_ integer,course_ text)
+language plpgsql as
+$$
+begin
+    insert into courses ("id","duration","course")
+    values (id_,duration_,course_);
+end
+$$
+call addcourses ('123',765,'sql')
+select * from courses

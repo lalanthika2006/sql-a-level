@@ -1,0 +1,6 @@
+select * from courses order  by course
+select id, duration from courses order by duration
+select * from courses order by 2,3
+ select * from courses order by 2,3 desc
+ select * from courses order by 2 desc,3 desc
+ select * from courses order by 2 desc, 3

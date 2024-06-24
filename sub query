@@ -1,0 +1,4 @@
+select car , cylinders , weight from cars where "cylinders" in (select distinct("cylinders") from cars where weight <3000) order by weight desc
+select car,cylinders,weight from cars where "cylinders" in (select distinct(cylinders) from cars where weight in (select min(weight) from cars where origin = 'US')) order by weight desc
+with car_info as (select car,cylinders,weight,origin from cars)
+select * from car_info

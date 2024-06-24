@@ -1,0 +1,5 @@
+select car,mpg,
+sin(radians("mpg")),
+cos(radians("mpg")),
+tan(radians("mpg"))
+from cars

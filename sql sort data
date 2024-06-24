@@ -1,0 +1,6 @@
+select car from cars order by car
+select car , cylinders from cars order by cylinders
+select car,mpg ,cylinders from cars order by 2, 3  desc
+select car , mpg,cylinders from cars order by 2,3
+select car, mpg, cylinders from cars order by 2 desc ,3
+select car,mpg,cylinders from cars order by 2 desc,3 desc

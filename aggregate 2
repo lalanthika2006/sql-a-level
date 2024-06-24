@@ -1,0 +1,9 @@
+select min(mpg) as min_mpg from cars
+select sum(mpg)from cars
+select car,weight from cars where weight=(select min(weight) from cars)
+select count(distinct (mpg)) from cars
+select count (*) as items,
+min(weight) as min_weight,
+max(weight) as max_weight ,
+avg(weight) as avg_weight 
+from cars

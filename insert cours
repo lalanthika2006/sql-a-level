@@ -1,0 +1,2 @@
+call  insert_courses('s1234',450,'java')
+select * from courses

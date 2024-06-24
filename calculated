@@ -1,0 +1,3 @@
+select car ||' ( '||  origin || ') ' from cars
+select car, weight*1000 as "weight (grams)" from cars
+select car,mpg/cylinders as "mpg/cylinders" from cars

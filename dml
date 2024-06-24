@@ -1,0 +1,10 @@
+create table customer (name text,phoneno integer , e_mail text , city varchar)  
+select * from customer
+alter table customer add column gender integer
+ select  * from customer
+alter table customer alter column gender type text
+select  * from customer
+alter table customer drop column gender
+select * from customer
+drop table customer
+select * from customer

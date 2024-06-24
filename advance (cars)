@@ -1,0 +1,5 @@
+select car,mpg,cylinders from cars where cylinders =6 and mpg =15
+select car,mpg,cylinders from cars where cylinders =8 or mpg=17
+select car,mpg,cylinders from cars where (mpg=15 or mpg=17) and cylinders =8
+select car, mpg, cylinders from cars where mpg in (14, 15 ,17)
+select car , origin from cars where not origin ='US' 

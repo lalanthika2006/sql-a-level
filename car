@@ -1,0 +1,5 @@
+select car from cars
+select car,cylinders from cars
+select distinct car from cars
+select car from cars limit 5
+select * from cars

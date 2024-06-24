@@ -1,0 +1,4 @@
+select car from cars where car ilike 'a%'
+select car from cars where car ilike '% hornet'
+select car from cars where car ilike '%GLC%'
+select car from cars where car ilike '%GLC ____'

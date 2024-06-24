@@ -1,0 +1,5 @@
+select id from courses
+select id, course from courses
+select * from courses
+select distinct course from courses 
+select * from courses limit 5

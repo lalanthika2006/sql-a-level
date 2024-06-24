@@ -1,0 +1,7 @@
+create table customers (name text , phno bigint,email text ,city  text)
+insert into customers values ('anu',9876543212,'anuraj12@gmail.com','cuddalore')
+select * from customers
+insert into customers values ('anu',9876543212,'anuraj12@gmail.com','cuddalore'),('arun',1234567899,'arun23@gmail.com','salem')
+insert into customers (name,email,city) values ('ragul','ragulraj123@gmail.com','chennai')
+update customers set phno =5678943212 where name = 'ragul'
+delete from customers where name = 'anu'

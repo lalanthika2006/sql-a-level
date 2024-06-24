@@ -1,0 +1,5 @@
+select * from students
+select name from students
+select name, age from students  
+select distinct city from students
+select * from students limit 10
